@@ -63,4 +63,30 @@ html{
     border-radius:100%; 
 
 }
+.inicio .container-banner h1 {
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.inicio .container-banner h2{
+    font-size: 15px;
+    font-weight: normal;
+
+}
+ .inicio .redes{
+    color: azure;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff ;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 42px 5px;
+    font-size: 20px;
+    transition: 0.3s;
+
+}
 
