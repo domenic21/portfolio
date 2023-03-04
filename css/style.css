@@ -12,11 +12,11 @@ html{
     background-color: #121212;
 }
 .navbar-brand {
-    color: orangered;
+    color: #009E60;
     padding-bottom: 1.5em;
 }
 .nav-link:hover {
-    color: orangered;
+    color: #009E60;
     
 }
 
@@ -31,13 +31,17 @@ html{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: azure;
 
+    
 }
 /* inicio */
 .contenedor-img img{
     border-radius: 60%;
+    
+
 }
+
 .inicio{
-    background: linear-gradient(to top,rgb(30, 35, 38,.8),rgb(30, 35, 38,1)),
+    background: linear-gradient(to top,rgb(30, 35, 38,.7),rgb(30, 35, 38,1)),
     url(/img/pexels-swapnil-sharma-3274210.jpg);
     background-size: cover;
     height: 100vh;
@@ -53,12 +57,13 @@ html{
     max-width: 350px;
     margin: auto;
     border-radius: 40px ;
+    box-shadow: 0px 0px 16px rgb(0, 40, 31);
 }
 .inicio .contenedor-img img{
     margin-top: 40px;
-    border:  20px solid #363636;
+    
     display: block;
-    width: 80%;
+    width: 60%;
     margin: auto;
     border-radius:100%; 
 
@@ -75,7 +80,7 @@ html{
     font-weight: normal;
 
 }
- .inicio .redes{
+   .bi{
     color: azure;
     display: inline-block;
     text-decoration: none;
@@ -89,4 +94,17 @@ html{
     transition: 0.3s;
 
 }
+
+  
+  .bi:hover {
+    color:#8DB600 ;
+    
+  }
+
+  
+
+
+
+
+
 
